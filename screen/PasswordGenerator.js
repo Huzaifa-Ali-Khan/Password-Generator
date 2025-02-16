@@ -112,6 +112,7 @@ const PasswordGenerator = () => {
       <Text style={styles.password}>Password:</Text>
       <TouchableOpacity onPress={handleDoubleTap} activeOpacity={0.8}>
         <Text style={styles.password}>{password}</Text>
+        <Text>Created By Huzaifa Ali</Text>
       </TouchableOpacity>
 
     </View>
